@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* moodicons.css */
+[class*="mood-"]{
+font-weight:bold;
+  -webkit-font-smoothing:antialiased
+}
+
+
+/* Moodicons list */
+
+/* Anger */
+*[class*="mood-fu"]:after{
+  content:'凸ಠ益ಠ)凸';
+}
+
+/* Party */
+*[class*="mood-party-together"]:after{
+  content:'＼（＾∀＾）メ（＾∀＾）ノ';
+}
+
+/* Mad */
+*[class*="mood-anger-table"]:after{
+content:'(╯°□°）╯︵ ┻━┻';}
+
+
+/* Love */
+*[class*="mood-big-love"]:after{
+  content:"(｡♥‿♥｡)";
+}
+
+/* Dog */
+*[class*="mood-lazy-dog"]:after{
+  content:"(〓￣(∵エ∵)￣〓)";
+}
+/* --- Pig  --- */
+*[class*="mood-lazy-pig"]:after{
+	content:"( ´(00)`)";
+}
+*[class*="mood-running-pig"]:after{
+	content:"ヾ(ﾟ(OO)ﾟ)ﾉ"
+}
+
+*[class*="mood-angry-pig"]:after{
+	content:"(○｀（●●）´○)ﾉ"
+}
+*[class*="mood-suspicious-pig"]:after{
+	content:"(=｀(∞)´=)"
+}
+
+/* --- Winking emoticons --- */
+*[class*="mood-head-wink-large"]:after{
+	content:"（＾＿－）"
+}
+*[class*="mood-head-wink-large-right"]:after{
+content:"（＾＿−）"
+}
+*[class*="mood-head-wink"]:after{
+content:"(^_-)"
+}
+*[class*="mood-head-kiss"]:after{
+content:"（○゜ε＾○）"
+}
+*[class*="mood-head-wink-happy"]:after{
+content:"＼（^０＾）／"
+}
+
+/* Drinking emoticons */
+*[class*="mood-here-is-your-coffee"]:after{
+content:"且_(ﾟ◇ﾟ；)ノﾞ"
+}
+*[class*="mood-here-is-your-coffee-screaming"]:after{
+content:"(　 ゜Д゜)⊃旦";
+}
+*[class*="mood-here-is-your-coffee-shy"]:after{
+content:"( ´･ω･`)_且~"
+}
+*[class*="mood-here-is-your-coffee-happy"]:after{
+content:"( ^-^)_旦”"
+}
+*[class*="mood-here-is-your-coffee-humble"]:after{
+content:"( -_-)旦~"
+}
